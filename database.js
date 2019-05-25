@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://52.14.94.46/library-app';
+const URI = 'mongodb://52.14.110.92/library-app';
 
 mongoose.connect(URI)
     .then(db => console.log('DB OK!'))
